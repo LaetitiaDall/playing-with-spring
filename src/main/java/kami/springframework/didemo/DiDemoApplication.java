@@ -1,9 +1,9 @@
 package kami.springframework.didemo;
 
-import kami.springframework.didemo.di.controllers.ConstructorInjectedController;
-import kami.springframework.didemo.di.controllers.MyController;
-import kami.springframework.didemo.di.controllers.PropertyInjectedController;
-import kami.springframework.didemo.di.controllers.SetterInjectedController;
+import kami.springframework.didemo.dependency_injection.controllers.ConstructorInjectedController;
+import kami.springframework.didemo.dependency_injection.controllers.MyController;
+import kami.springframework.didemo.dependency_injection.controllers.PropertyInjectedController;
+import kami.springframework.didemo.dependency_injection.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
